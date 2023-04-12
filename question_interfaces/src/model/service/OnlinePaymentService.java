@@ -2,6 +2,6 @@ package model.service;
 
 public interface OnlinePaymentService {
 	
-	public Double paymentFee(Double amount);
-	public Double interest(Double amount, int months);
+	public Double paymentFee(double amount);
+	public Double interest(double amount, int months);
 }
